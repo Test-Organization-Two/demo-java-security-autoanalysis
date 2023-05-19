@@ -16,6 +16,7 @@
     <sonar.projectName>Java Web App</sonar.projectName>
     <sonar.tests>src</sonar.tests>
     <sonar.test.inclusions>src/test/**/*</sonar.test.inclusions>
+    <sonar.test.exclusions></sonar.test.exclusions>
   </properties>
   <dependencies>
     <dependency>
