@@ -8,6 +8,10 @@ public class AppTest {
 //TODO: something
     @Test
     public void testGenerateKey() {
+        int j;
+        while (true) { // Noncompliant; end condition omitted
+            j++;
+        }
         assertNotNull(Utils.generateKey());
     }
 }
