@@ -14,9 +14,7 @@
     <maven.compiler.target>11</maven.compiler.target>
     <sonar.projectKey>training:security</sonar.projectKey>
     <sonar.projectName>Java Web App</sonar.projectName>
-    <sonar.tests>src</sonar.tests>
-    <sonar.test.inclusions>src/test/**/*</sonar.test.inclusions>
-    <sonar.test.exclusions></sonar.test.exclusions>
+    <sonar.inclusions>src/test/**/*</sonar.inclusions>
   </properties>
   <dependencies>
     <dependency>
