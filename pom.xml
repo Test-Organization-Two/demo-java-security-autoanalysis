@@ -17,6 +17,7 @@
     <sonar.projectKey>training:security</sonar.projectKey>
     <sonar.projectName>Java Web App</sonar.projectName>
     <sonar.sources>.</sonar.sources>
+    <sonar.tests></sonar.tests>
   </properties>
   <dependencies>
     <dependency>
