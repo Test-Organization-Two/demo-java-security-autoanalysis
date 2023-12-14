@@ -18,6 +18,7 @@ public class DBUtils {
         Statement statement = connection.createStatement();
         ResultSet resultSet = statement.executeQuery(query);
         List<String> users = new ArrayList<String>();
+        // TODO: something
         while (resultSet.next()){
             users.add(resultSet.getString(0));
         }
